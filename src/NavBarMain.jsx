@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
-import Nav from 'react-bootstrap/Nav';
-import NavBar from 'react-bootstrap/NavBar';
+import Nav from 'react-bootstrap/esm/Nav';
+import NavBar from 'react-bootstrap/esm/NavBar';
 
 const NavBarMain = () => {
     return <>

@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
+import rappers from './rappers.png';
+import wildfires from './wildfires.png';
+import upset from './upset.png';
+
 import NavBarMain from './NavBarMain'
 import './App.css'
 
@@ -13,15 +17,15 @@ function App() {
       <div className='page-body' >
         <br></br>
         <a className="image-preview" target="_" href="http://vcg.github.io/upset/">
-          <img src="/upset.png" height="180" />
+          <img src={upset} height="180" />
           <span>UpSet: Visualizing Interacting Sets</span>
         </a>
         <a className="image-preview" target="_" href="https://www.nytimes.com/interactive/2025/01/08/weather/los-angeles-fire-maps-california.html">
-          <img src="/wildfires.png" height="180" />
+          <img src={wildfires} height="180" />
           <span>New York Times - California Wildfires Tracker</span>
         </a>
         <a className="image-preview" target="_" href="https://pudding.cool/projects/vocabulary/">
-          <img src="/rappers.png" height="180" />
+          <img src={rappers} height="180" />
           <span>The Pudding - Rap Vocabulary</span>
         </a>
         
