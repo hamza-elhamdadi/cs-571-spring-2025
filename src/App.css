@@ -1,0 +1,83 @@
+body {
+  display: block;
+  background-color: #eee9ff;
+  color: rgb(112, 80, 160);
+
+  padding: 0.5em 0 2em 0;
+}
+
+#root {
+  width: 100%;
+}
+
+.navbar-light {
+  background-color: #eee9ff!important;
+  text-align: left;
+  padding: 0.2em 0 0.5em 0;
+  border-bottom: 2px solid rgb(112, 80, 160);
+  text-align: center;
+}
+
+.page-name, .page-name:hover {
+  font-size: 18pt;
+  color: rgb(112, 80, 160);
+  text-decoration: none;
+  padding: 0 10px 0 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.page-subname {
+  font-size: 15pt!important;
+}
+
+.page-body {
+  width: 80%;
+  padding-left: 10%;
+}
+
+.section-header {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+a.image-preview {
+  display: inline-block;
+  background: black;
+  padding: 0;
+  position: relative;
+}
+
+a.image-preview img {
+  display: block;
+  transition: all 0.5s linear;
+}
+
+a.image-preview span {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: black;
+  opacity: 0;
+}
+
+a.image-preview:hover img{
+  filter: brightness(50%);
+  -webkit-transition: all 0.3s linear;
+     -moz-transition: all 0.3s linear;
+      -ms-transition: all 0.3s linear;
+       -o-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+}
+
+a.image-preview:hover span{
+  color: #fff;
+  opacity: 1;
+  -webkit-transition: all 0.3s linear;
+     -moz-transition: all 0.3s linear;
+      -ms-transition: all 0.3s linear;
+       -o-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+}
