@@ -16,6 +16,7 @@ function App() {
       <NavBarMain />
       <div className='page-body' >
         <br></br>
+        <span style={{display: 'flex', justifyContent: 'center'}}>
         <a className="image-preview" target="_" href="http://vcg.github.io/upset/">
           <img src={upset} height="180" />
           <span>UpSet: Visualizing Interacting Sets</span>
@@ -28,6 +29,7 @@ function App() {
           <img src={rappers} height="180" />
           <span>The Pudding - Rap Vocabulary</span>
         </a>
+        </span>
         
 
         
