@@ -11,7 +11,7 @@ function Schedule() {
 
         <h3 className='section-header'>Office Hours</h3>
         <p>
-            <b>Hamza Elhamdadi:</b> Tuesday and Thursday, 2:30pm - 3:30pm EST, LGRC A208
+            <b>Hamza Elhamdadi:</b> TBD {/* Tuesday and Thursday, 2:30pm - 3:30pm EST, LGRC A208 */}
             <br />
             <b>Zack While:</b> TBD
             <br />

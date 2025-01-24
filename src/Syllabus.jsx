@@ -138,7 +138,7 @@ function Syllabus() {
         <p>
             We want to ensure that all assignments are properly graded. That being said, graders are human and may make mistakes. 
             If you believe an assignment has been graded incorrectly, please email the instructor or one of the TAs (within 7 days from the assignment due date) with an explanation. 
-            <b>Note: your email should include the assignment name, the question or part you believe was graded incorrectly, and an explanation of why you believe it is correct.</b>
+            <b> Note: your email should include the assignment name, the question or part you believe was graded incorrectly, and an explanation of why you believe it is correct.</b>
         </p>
 
         <h3 className='section-header'>Reading Assigments: </h3>
@@ -212,7 +212,7 @@ function Syllabus() {
 
         <h3 className='section-header'>Collaboration, Cheating, and Plagiarism Policy: </h3>
         <p>
-            I encourage you to discuss course ideas, material, and assignments with other students to better your understanding, but <b>you must submit your own work.</b> 
+            I encourage you to discuss course ideas, material, and assignments with other students to better your understanding, but <b>you must submit your own work. </b> 
             In other words, you must write your own code, design your own visualizations, and use your own words when critically evaluating visualizations.
             <br />
             <br />
@@ -221,8 +221,8 @@ function Syllabus() {
             <br />
             <br />
             For your <b>project</b>, you may use limited parts of code found online if the license allows for re-use. 
-            You may use general purpose frameworks (e.g., Node.js, React, Bootstrap, JQuery, etc.). 
-            <b>Note: You must cite any source you use (author, year, title, time accessed, URL) directly in your source code via comment or header (libraries may be cited in your README file).</b> 
+            You may use general purpose frameworks (e.g., Node.js, React, Bootstrap, JQuery, etc). 
+            <b> Note: You must cite any source you use (author, year, title, time accessed, URL) directly in your source code via comment or header (libraries may be cited in your README file). </b> 
             You must also cite all of these sources clearly on your project website. If you use LLMs to help generate code, you must likewise acknowledge where and how they were used.
             <br />
             <br />
@@ -237,7 +237,7 @@ function Syllabus() {
             Any person who has reason to believe that a student has committed academic dishonesty should bring such information to the attention of the appropriate course instructor as soon as possible. 
             Instances of academic dishonesty not related to a specific course should be brought to the attention of the appropriate department Head or Chair. 
             Since students are expected to be familiar with this policy and the commonly accepted standards of academic integrity, ignorance of such standards is not normally sufficient evidence of lack of intent 
-            <a href="http://www.umass.edu/dean_students/codeofconduct/acadhonesty/">http://www.umass.edu/dean_students/codeofconduct/acadhonesty/</a>.
+            <a href="http://www.umass.edu/dean_students/codeofconduct/acadhonesty/"> http://www.umass.edu/dean_students/codeofconduct/acadhonesty/</a>.
         </p>
 
         <h3 className='section-header'>Title IX: </h3>
@@ -246,7 +246,7 @@ function Syllabus() {
             the University of Massachusetts Amherst is committed to providing a safe learning environment for all students, free from all forms of discrimination, including sexual assault, sexual harassment, domestic violence, dating violence, stalking, and retaliation. 
             This includes interactions in person or online through digital platforms and social media. Title IX also protects against discrimination on the basis of pregnancy, childbirth, false pregnancy, miscarriage, abortion, or related conditions, including recovery. 
             There are resources here on campus to support you. A summary of the available Title IX resources (confidential and non-confidential) can be found at the following link: 
-            <a href="https://www.umass.edu/titleix/resources">https://www.umass.edu/titleix/resources</a>. You do not need to make a formal report to access them. If you need immediate support, you are not alone. 
+            <a href="https://www.umass.edu/titleix/resources"> https://www.umass.edu/titleix/resources</a>. You do not need to make a formal report to access them. If you need immediate support, you are not alone. 
             Free and confidential support is available 24 hours a day / 7 days a week / 365 days a year at the SASA Hotline 413-545-0800. 
             <br />
             <br />
@@ -268,10 +268,10 @@ function Syllabus() {
             UMass Amherst has various supports for students including:
         </p>
         <ul>
-            <li>Medical Care: <a href="https://www.umass.edu/uhs/">University Health Services</a></li>
-            <li>Mental Health and Counseling: <a href="https://www.umass.edu/counseling/">Center for Counseling and Psychological Health</a></li>
-            <li>Assorted Services: <a href="https://www.umass.edu/studentlife/wellbeing-safety">Campus Wellbeing and Safety</a></li>
-            <li>Writing Help: <a href="https://www.umass.edu/writing-center/">Writing Center</a></li>
+            <li>Medical Care: <a href="https://www.umass.edu/uhs/"> University Health Services</a></li>
+            <li>Mental Health and Counseling: <a href="https://www.umass.edu/counseling/"> Center for Counseling and Psychological Health</a></li>
+            <li>Assorted Services: <a href="https://www.umass.edu/studentlife/wellbeing-safety"> Campus Wellbeing and Safety</a></li>
+            <li>Writing Help: <a href="https://www.umass.edu/writing-center/"> Writing Center</a></li>
         </ul>
 
         <h3 className='section-header'>Credits and User Notice for Copyrighted Materials: </h3>
