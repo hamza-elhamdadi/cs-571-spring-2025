@@ -123,6 +123,18 @@ function Syllabus() {
             conceptual errors; 
             <br />
             [2, 4] = Poor / did not finish; [0, 1] = Did not participate / did not submit
+            <br />
+            <br />
+
+            A cumulative grade in [93% − 100%] will be an A, [89% − 92%] will be an A-, [85% − 88%] will be a B+,
+            [80% − 84%] will be a B, [75% − 79%] will be a B-, 
+            {/* <br />  */}
+            [70% − 74%] will be a C+, [65% − 69%] will be a C,
+            [60% − 64%] will be a C-, [55% − 59%] will be a D+, 
+            [50% − 54%] will be a D. 
+            {/* <br /> */}
+            <b> Final grades are rounded
+            down to the nearest whole number (e.g., 64.9 is a C-).</b>
 
         </p>
 
@@ -151,9 +163,9 @@ function Syllabus() {
 
         <h3 className='section-header'>Quizzes: </h3>
         <p>
-            In lieu of midterms and a final exam, we will have (approximately) weekly Canvas quizzes. 
+            In lieu of midterms and a final exam, we will have Canvas quizzes (approximately bi-weekly, every other week). 
             These quizzes will help reinforce the key concepts we cover in class and assigned readings. 
-            These quizzes will have at most 5 questions.
+            These quizzes will have at most 10 questions.
         </p>
 
         <h3 className='section-header'>Programming and Design Assignments: </h3>
@@ -195,7 +207,7 @@ function Syllabus() {
             To facilitate this, we have included a project milestone during the semester where you can receive feedback to help you iterate. 
             <br />
             <br />
-            You will work closely in 3-person project teams. You may choose your team members. If you cannot find a partner, we will team you up randomly. 
+            You will work closely in 3-person project teams. You may choose your team members. If you cannot find a team, we will team you up randomly. 
             We want to encourage all team members to contribute to the project. For this reason, we will include <b>peer assessment</b> as a factor in the project grades. 
             Your project grade may be adjusted depending on the following factors:
         </p>
