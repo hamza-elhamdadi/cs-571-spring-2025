@@ -249,7 +249,7 @@ function Syllabus() {
             Any person who has reason to believe that a student has committed academic dishonesty should bring such information to the attention of the appropriate course instructor as soon as possible. 
             Instances of academic dishonesty not related to a specific course should be brought to the attention of the appropriate department Head or Chair. 
             Since students are expected to be familiar with this policy and the commonly accepted standards of academic integrity, ignorance of such standards is not normally sufficient evidence of lack of intent 
-            <a href="http://www.umass.edu/dean_students/codeofconduct/acadhonesty/"> http://www.umass.edu/dean_students/codeofconduct/acadhonesty/</a>.
+            (<a href="http://www.umass.edu/dean_students/codeofconduct/acadhonesty/">UMass Academic Honest Policy</a>).
         </p>
 
         <h3 className='section-header'>Title IX: </h3>

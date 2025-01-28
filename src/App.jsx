@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { useState, useEffect } from 'react';
 
 import rappers from './rappers.png';
 import wildfires from './wildfires.png';
@@ -9,27 +8,41 @@ import NavBarMain from './NavBarMain'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [width, setWidth] = useState(window.innerWidth);
+  const [exampleHTML, setExampleHTML] = useState(0);
+
+  function handleWindowSizeChange(){ setWidth(window.innerWidth) };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  })
+
+  const examplesDisplay = width <= 1190 ? 'block' : 'flex';  
+
+  
 
   return (
     <>
       <NavBarMain />
       <div className='page-body' >
         <br></br>
-        <span style={{display: 'flex', justifyContent: 'center'}}>
-        <a className="image-preview" target="_" href="http://vcg.github.io/upset/">
-          <img src={upset} height="180" />
-          <span>UpSet: Visualizing Interacting Sets</span>
-        </a>
-        <a className="image-preview" target="_" href="https://www.nytimes.com/interactive/2025/01/08/weather/los-angeles-fire-maps-california.html">
-          <img src={wildfires} height="180" />
-          <span>New York Times - California Wildfires Tracker</span>
-        </a>
-        <a className="image-preview" target="_" href="https://pudding.cool/projects/vocabulary/">
-          <img src={rappers} height="180" />
-          <span>The Pudding - Rap Vocabulary</span>
-        </a>
-        </span>
+        <span style={{display: examplesDisplay, justifyContent: 'center'}}>
+            <a className="image-preview" target="_" href="http://vcg.github.io/upset/">
+              <img src={upset} height="180" width="360" />
+              <span>UpSet: Visualizing Interacting Sets</span>
+            </a>
+            <a className="image-preview" target="_" href="https://www.nytimes.com/interactive/2025/01/08/weather/los-angeles-fire-maps-california.html">
+              <img src={wildfires} height="180" width="360" />
+              <span>New York Times - California Wildfires Tracker</span>
+            </a>
+            <a className="image-preview" target="_" href="https://pudding.cool/projects/vocabulary/">
+              <img src={rappers} height="180" width="360" />
+              <span>The Pudding - Rap Vocabulary</span>
+            </a>
+          </span>
         
 
         
