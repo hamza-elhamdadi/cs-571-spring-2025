@@ -22,7 +22,7 @@ function Schedule() {
         <h2 className='section-header'>Week 1 (Jan 30)</h2>
         <ul>
           <li><b>Lecture: </b> What Is Visualization, and Why Is It Important?</li>
-          <li>
+          {/* <li>
             <b>Supplemental Resources:</b>
             <ul>
               <li>HTML</li>
@@ -34,7 +34,7 @@ function Schedule() {
             <ul>
               <li>A Tour through The Visualization Zoo</li>
             </ul>
-          </li>
+          </li> */}
         </ul>
         <h2 className='section-header'>Week 2 (Feb 4, 6)</h2>
         <h2 className='section-header'>Week 3 (Feb 11, 13)</h2>
