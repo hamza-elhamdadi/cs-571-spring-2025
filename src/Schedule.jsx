@@ -13,10 +13,9 @@ function Schedule() {
         <p>
             <b>Hamza Elhamdadi:</b> Tuesday and Thursday, 2:30pm - 3:30pm Eastern Time, LGRC A208
             <br />
-            <b>Zack While:</b> Tuesday and Thursday, 9:30am - 10:30am Eastern Time, Friday 2:30pm-3:30pm Eastern Time on 
-            <a href="https://umass-amherst.zoom.us/j/97476877512">Zoom</a>
+            <b>Zack While:</b> Tuesday and Thursday, 9:30am - 10:30am Eastern Time, Friday 2:30pm-3:30pm Eastern Time (Zoom Link on Canvas)
             <br />
-            <b>Sarmistha Sarna:</b> 9:30am - 10:30am Eastern Time on <a href="https://umass-amherst.zoom.us/j/93051246175">Zoom</a>
+            <b>Sarmistha Sarna:</b> 9:30am - 10:30am Eastern Time (Zoom Link on Canvas)
         </p>
         {/* <br /> */}
 
