@@ -2,6 +2,22 @@ import NavBarMain from './NavBarMain';
 import './App.css';
 
 function Schedule() {
+  const downloadPdf = (filename, downloadname) => {
+    console.log(filename, downloadname)
+
+    fetch(filename).then((res) => {
+      res.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+
+        let link = document.createElement('a');
+        link.href = fileURL;
+        link.download = downloadname;
+
+        link.click();
+      })
+    })
+  }
+
   return (
     <>
       <NavBarMain />
@@ -21,7 +37,13 @@ function Schedule() {
 
         <h2 className='section-header'>Week 1 (Jan 30)</h2>
         <ul>
-          <li><b>Lecture: </b> What Is Visualization, and Why Is It Important?</li>
+          <li>
+            <b>Lecture: </b> What Is Visualization, and Why Is It Important?
+            <br />
+            <a onClick={() => {
+              downloadPdf('slides/week_1_slides.pdf', 'CS 571 - Week 1 Slides - What Is Visualization and Why Is It Important.pdf')
+            }}>Download Slides</a>
+          </li>
           {/* <li>
             <b>Supplemental Resources:</b>
             <ul>
