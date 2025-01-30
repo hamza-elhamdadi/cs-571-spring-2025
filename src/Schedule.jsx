@@ -44,14 +44,19 @@ function Schedule() {
               downloadPdf('slides/week_1_slides.pdf', 'CS 571 - Week 1 Slides - What Is Visualization and Why Is It Important.pdf')
             }}>Download Slides</a>  
           </li>
-          {/* <li>
+          <li>
             <b>Supplemental Resources:</b>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
+              <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-html/" target="_blank">HTML Tutorial</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML Elements Reference</a></li>
+              <li><a href="https://developers.google.com/web/tools/chrome-devtools" target="_blank">Overview of Chrome Developer Tools</a></li>
+              
+              <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-css/" target="_blank">CSS Tutorial</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax" target="_blank">CSS Reference</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors" target="_blank">Basic CSS Selectors</a></li>
             </ul>
           </li>
-          <li>
+          {/* <li>
             <b>Recommended Readings:</b>
             <ul>
               <li>A Tour through The Visualization Zoo</li>
