@@ -40,9 +40,9 @@ function Schedule() {
           <li>
             <b>Lecture: </b> What Is Visualization, and Why Is It Important?
             <br />
-            <a onClick={() => {
+            <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_1_slides.pdf', 'CS 571 - Week 1 Slides - What Is Visualization and Why Is It Important.pdf')
-            }}>Download Slides</a>
+            }}>Download Slides</a>  
           </li>
           {/* <li>
             <b>Supplemental Resources:</b>
