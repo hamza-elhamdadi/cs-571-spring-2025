@@ -39,10 +39,10 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> What Is Visualization, and Why Is It Important?
-            <br />
+            {/* <br /> */}
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_1_slides.pdf', 'CS 571 - Week 1 Slides - What Is Visualization and Why Is It Important.pdf')
-            }}>Download Slides</a>  
+            }}> Download Slides</a>  
           </li>
           <li>
             <b>Supplemental Resources:</b>
@@ -64,7 +64,28 @@ function Schedule() {
           </li> */}
         </ul>
         <h2 className='section-header'>Week 2 (Feb 4, 6)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b>Perception and Cognition
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_2_slides.pdf', 'CS 571 - Week 2 Slides - Perception and Cognition.pdf')
+            }}> Download Slides</a>
+          </li>
+          <br />
+          <li><b>Lecture: </b> HTML and CSS</li>
+          <li>
+            <b>Supplemental Resources</b>
+            <ul>
+              <li><a href="https://code.visualstudio.com">Install Visual Studio Code</a></li>
+              <li><a href="https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/">Install the Live Server extension on Visual Studio Code</a></li>
+            </ul>
+          </li>
+          
+        </ul>
         <h2 className='section-header'>Week 3 (Feb 11, 13)</h2>
+        <ul>
+          <li><b>Lecture: </b> Color</li>
+        </ul>
         <h2 className='section-header'>Week 4 (Feb 18, 20)</h2>
         <h2 className='section-header'>Week 5 (Feb 25, 27)</h2>
         <h2 className='section-header'>Week 6 (Mar 4, 6)</h2>
