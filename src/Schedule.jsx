@@ -72,7 +72,12 @@ function Schedule() {
             }}> Download Slides</a>
           </li>
           <br />
-          <li><b>Lecture: </b> HTML and CSS</li>
+          <li>
+            <b>Lecture: </b> HTML and CSS
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_2_slides_html.pdf', 'CS 571 - Week 2 Slides - HTML and CSS.pdf')
+            }}> Download Slides</a>
+          </li>
           <li>
             <b>Supplemental Resources</b>
             <ul>
