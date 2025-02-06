@@ -83,6 +83,7 @@ function Schedule() {
             <ul>
               <li><a href="https://code.visualstudio.com">Install Visual Studio Code</a></li>
               <li><a href="https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/">Install the Live Server extension on Visual Studio Code</a></li>
+              <li><a href="https://developer.chrome.com/docs/devtools/css">How to Debug CSS in the Chrome Developer Tools</a></li>
             </ul>
           </li>
           
