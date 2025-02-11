@@ -112,7 +112,7 @@ function Schedule() {
           <li>
             <b>Recommended Reading: </b>
             <ul>
-              <li>VAD, Chapters 10.2-10.3, Color Theory and Colormaps</li>
+              <li><a target='_blank' href="https://learning.oreilly.com/library/view/~/9781466508910/?ar">VAD</a>, Chapters 10.2-10.3, Color Theory and Colormaps</li>
               <li><a target='_blank' href="https://www.computer.org/csdl/magazine/cg/2023/03/10128890/1NdJMHqISnS">Rainbow Colormaps are Not All Bad (Paper)</a></li>
               <li><a target='_blank' href="https://eagereyes.org/blog/2023/rainbow-colormaps-are-not-all-bad-paper">Rainbow Colormaps are Not All Bad (Blog Post)</a></li>
             </ul>
