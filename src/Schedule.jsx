@@ -117,18 +117,97 @@ function Schedule() {
               <li><a target='_blank' href="https://eagereyes.org/blog/2023/rainbow-colormaps-are-not-all-bad-paper">Rainbow Colormaps are Not All Bad (Blog Post)</a></li>
             </ul>
           </li>
+          <li>
+            <b>Lecture: </b> Project Management with Git
+          </li>
         </ul>
         <h2 className='section-header'>Week 4 (Feb 18, 20)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Data Abstraction
+          </li>
+          <li>
+            <b>Lecture: </b> Javascript
+          </li>
+        </ul>
         <h2 className='section-header'>Week 5 (Feb 25, 27)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> DOM and D3 Basics
+          </li>
+        </ul>
         <h2 className='section-header'>Week 6 (Mar 4, 6)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Visual Encoding: Marks and Channels
+          </li>
+        </ul>
         <h2 className='section-header'>Week 7 (Mar 11, 13)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Design Guidelines
+          </li>
+        </ul>
         <h2 className='section-header'>Week 8 (Mar 25, 27)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Design Guidelines
+          </li>
+          <li>
+            <b>Lecture: </b> D3 Layouts and Maps
+          </li>
+        </ul>
         <h2 className='section-header'>Week 9 (Apr 1, 3)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Visualization Critique
+          </li>
+        </ul>
         <h2 className='section-header'>Week 10 (Apr 8, 10)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Tasks, Design and Evaluation
+          </li>
+          <li>
+            <b>Lecture: </b> Multiple Views, Dashboards
+          </li>
+        </ul>
         <h2 className='section-header'>Week 11 (Apr 15, 17)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Filtering and Aggregation
+          </li>
+          <li>
+            <b>Lecture: </b> Visualizing Tabular Data
+          </li>
+        </ul>
         <h2 className='section-header'>Week 12 (Apr 22, 24)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Visualizing Tabular Data
+          </li>
+          <li>
+            <b>Lecture: </b> Visualizing Networks and Trees
+          </li>
+        </ul>
         <h2 className='section-header'>Week 13 (Apr 29, May 1)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Visualizing Networks and Trees
+          </li>
+          <li>
+            <b>Lecture: </b> Visualizing Multivariate Networks
+          </li>
+        </ul>
         <h2 className='section-header'>Week 14 (May 6, 8)</h2>
+        <ul>
+          <li>
+            <b>Lecture: </b> Set and Text Visualizations
+          </li>
+          <li>
+            <b>Lecture: </b> Maps
+          </li>
+        </ul>
       </div>
     </>
   );
