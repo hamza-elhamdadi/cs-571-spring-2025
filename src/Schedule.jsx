@@ -71,6 +71,13 @@ function Schedule() {
               downloadPdf('slides/week_2_slides.pdf', 'CS 571 - Week 2 Slides - Perception and Cognition.pdf')
             }}> Download Slides</a>
           </li>
+          <li>
+            <b>Supplemental Resources</b>
+            <ul>
+              <li><a target='_blank' href="https://www.nature.com/nmeth/journal/v7/n11/full/nmeth1110-863.html">Gestalt principles (part 1).</a> Bang Wong. Nature Methods 7, pp. 863, Nov 2010.</li>
+              <li><a target='_blank' href="http://www.nature.com/nmeth/journal/v7/n12/full/nmeth1210-941.html">Gestalt principles (part 2).</a> Bang Wong. Nature Methods 7, pp. 941, Dec 2010.</li>
+            </ul>
+          </li>
           <br />
           <li>
             <b>Lecture: </b> HTML and CSS
@@ -81,16 +88,35 @@ function Schedule() {
           <li>
             <b>Supplemental Resources</b>
             <ul>
-              <li><a href="https://code.visualstudio.com">Install Visual Studio Code</a></li>
-              <li><a href="https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/">Install the Live Server extension on Visual Studio Code</a></li>
-              <li><a href="https://developer.chrome.com/docs/devtools/css">How to Debug CSS in the Chrome Developer Tools</a></li>
+              <li><a target='_blank' href="https://code.visualstudio.com">Install Visual Studio Code</a></li>
+              <li><a target='_blank' href="https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/">Install the Live Server extension on Visual Studio Code</a></li>
+              <li><a target='_blank' href="https://developer.chrome.com/docs/devtools/css">How to Debug CSS in the Chrome Developer Tools</a></li>
             </ul>
           </li>
           
         </ul>
         <h2 className='section-header'>Week 3 (Feb 11, 13)</h2>
         <ul>
-          <li><b>Lecture: </b> Color</li>
+          <li>
+            <b>Lecture: </b> Color
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_3_slides_color.pdf', 'CS 571 - Week 3 Slides - Color.pdf')
+            }}> Download Slides</a>
+          </li>
+          <li>
+            <b>Supplemental Resources: </b>
+            <ul>
+              <li>Podcast: <a target='_blank' href="https://radiolab.org/podcast/211178-rip-rainbow">Rippin' the Rainbow a New One</a></li>
+            </ul>
+          </li>
+          <li>
+            <b>Recommended Reading: </b>
+            <ul>
+              <li>VAD, Chapters 10.2-10.3, Color Theory and Colormaps</li>
+              <li><a target='_blank' href="https://www.computer.org/csdl/magazine/cg/2023/03/10128890/1NdJMHqISnS">Rainbow Colormaps are Not All Bad (Paper)</a></li>
+              <li><a target='_blank' href="https://eagereyes.org/blog/2023/rainbow-colormaps-are-not-all-bad-paper">Rainbow Colormaps are Not All Bad (Blog Post)</a></li>
+            </ul>
+          </li>
         </ul>
         <h2 className='section-header'>Week 4 (Feb 18, 20)</h2>
         <h2 className='section-header'>Week 5 (Feb 25, 27)</h2>
