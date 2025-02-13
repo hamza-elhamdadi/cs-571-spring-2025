@@ -195,6 +195,10 @@ function Project(){
                     <br />
                 </p>
                 <p>
+                    Here is an <a target="_blank" href="https://sunsiu.github.io/poke-data/">example</a> of a final project from the University of Utah. Check out <a target="_blank" href="https://faris-k.github.io/dataviscourse-pr-manufacturing-vis/finalSubmission/">this one</a> as well.
+                    <br />
+                </p>
+                <p>
                     For your final project, you must hand in the following items:
                     <ul>
                         <li>Store the following in your GitHub repository: 
