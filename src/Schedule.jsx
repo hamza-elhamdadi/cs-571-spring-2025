@@ -125,6 +125,12 @@ function Schedule() {
             }}> Download Slides</a>
           </li>
           <li>
+            <b>Recommend Reading: </b>
+            <ul>
+              <li><a target='_blank' href="https://ieeexplore.ieee.org/document/7192707/media#media">Sketching Designs Using the Five Design-Sheet Methodology</a></li>
+            </ul>
+          </li>
+          <li>
             <b>Supplemental Resources: </b>
             <ul>
               <li><a target='_blank' href="https://book.git-scm.com/index.html">Pro Git Book</a></li>
