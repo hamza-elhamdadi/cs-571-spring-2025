@@ -117,8 +117,21 @@ function Schedule() {
               <li><a target='_blank' href="https://eagereyes.org/blog/2023/rainbow-colormaps-are-not-all-bad-paper">Rainbow Colormaps are Not All Bad (Blog Post)</a></li>
             </ul>
           </li>
+          <br />
           <li>
-            <b>Lecture: </b> Project Management with Git
+            <b>Lecture: </b> Project Overview and Project Management with Git
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_3_slides_project.pdf', 'CS 571 - Week 3 Slides - Project Overview and Project Management with Git.pdf')
+            }}> Download Slides</a>
+          </li>
+          <li>
+            <b>Supplemental Resources: </b>
+            <ul>
+              <li><a target='_blank' href="https://book.git-scm.com/index.html">Pro Git Book</a></li>
+              <li><a target='_blank' href="https://learngitbranching.js.org/">Learn Git Branching</a></li>
+              <li><a target='_blank' href="https://www-cs-students.stanford.edu/~blynn/gitmagic/">"Git Magic" Tutorial</a></li>
+              <li><a target='_blank' href="https://www.youtube.com/watch?v=HVsySz-h9r4">Youtube: Git Command Line Fundamentals</a></li>
+            </ul>
           </li>
         </ul>
         <h2 className='section-header'>Week 4 (Feb 18, 20)</h2>
