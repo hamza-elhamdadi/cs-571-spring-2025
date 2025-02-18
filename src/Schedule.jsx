@@ -144,6 +144,16 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> Data Abstraction
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_4_slides_data_abstraction.pdf', 'CS 571 - Week 4 Slides - Data Abstraction.pdf')
+            }}> Download Slides</a>
+          </li>
+          <li>
+            <b>Recommended Reading: </b>
+            <ul>
+              <li><a target='_blank' href="https://learning.oreilly.com/library/view/~/9781466508910/?ar">VAD</a>, Chapter 2, Data Abstraction</li>
+              <li><a target="_blank" href="https://www.jstor.org/stable/1671815?seq=1">On the Theory of Scales of Measurement</a> S. S. Stevens, Science, Vol. 103 No. 2684, pp. 677-680, June 1946.</li>
+            </ul>
           </li>
           <li>
             <b>Lecture: </b> Javascript
