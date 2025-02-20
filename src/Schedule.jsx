@@ -156,7 +156,17 @@ function Schedule() {
             </ul>
           </li>
           <li>
-            <b>Lecture: </b> Javascript
+            <b>Lecture: </b> SVG and Javascript
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_4_slides_svg_javascript.pdf', 'CS 571 - Week 4 Slides - SVG and Javascript.pdf')
+            }}> Download Slides</a>
+          </li>
+          <li>
+            <b>Supplemental Resources: </b>
+            <ul>
+              <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-svg/" target="_blank">SVG Tutorial</a></li>
+              <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-javascript/" target="_blank">Javascript Tutorial</a></li>
+            </ul>
           </li>
         </ul>
         <h2 className='section-header'>Week 5 (Feb 25, 27)</h2>
@@ -180,14 +190,17 @@ function Schedule() {
         <h2 className='section-header'>Week 8 (Mar 25, 27)</h2>
         <ul>
           <li>
-            <b>Lecture: </b> Design Guidelines
+            <b>Lecture: </b> Advanced D3
           </li>
           <li>
-            <b>Lecture: </b> D3 Layouts and Maps
+            <b>Lecture: </b> Tasks and Interaction
           </li>
         </ul>
         <h2 className='section-header'>Week 9 (Apr 1, 3)</h2>
         <ul>
+          <li>
+            <b>Lecture: </b> D3 Layouts and Maps
+          </li>
           <li>
             <b>Lecture: </b> Visualization Critique
           </li>
