@@ -140,7 +140,7 @@ function Schedule() {
             </ul>
           </li>
         </ul>
-        <h2 className='section-header'>Week 4 (Feb 18, 20)</h2>
+        <h2 className='section-header'>Week 4 (Feb 18)</h2>
         <ul>
           <li>
             <b>Lecture: </b> Data Abstraction
@@ -155,10 +155,13 @@ function Schedule() {
               <li><a target="_blank" href="https://www.jstor.org/stable/1671815?seq=1">On the Theory of Scales of Measurement</a> S. S. Stevens, Science, Vol. 103 No. 2684, pp. 677-680, June 1946.</li>
             </ul>
           </li>
-          <li>
+        </ul>
+        <h2 className='section-header'>Week 5 (Feb 25, 27)</h2>
+        <ul>
+        <li>
             <b>Lecture: </b> SVG and Javascript
             <a href="#/schedule" onClick={() => {
-              downloadPdf('slides/week_4_slides_svg_javascript.pdf', 'CS 571 - Week 4 Slides - SVG and Javascript.pdf')
+              downloadPdf('slides/week_5_slides_svg_javascript.pdf', 'CS 571 - Week 5 Slides - SVG and Javascript.pdf')
             }}> Download Slides</a>
           </li>
           <li>
@@ -168,9 +171,6 @@ function Schedule() {
               <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-javascript/" target="_blank">Javascript Tutorial</a></li>
             </ul>
           </li>
-        </ul>
-        <h2 className='section-header'>Week 5 (Feb 25, 27)</h2>
-        <ul>
           <li>
             <b>Lecture: </b> DOM and D3 Basics
           </li>
