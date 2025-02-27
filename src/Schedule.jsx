@@ -171,6 +171,9 @@ function Schedule() {
               <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-javascript/" target="_blank">Javascript Tutorial</a></li>
             </ul>
           </li>
+        </ul>
+        <h2 className='section-header'>Week 6 (Mar 4, 6)</h2>
+        <ul>
           <li>
             <b>Lecture: </b> DOM and D3 Basics
             <a href="#/schedule" onClick={() => {
@@ -190,9 +193,6 @@ function Schedule() {
               <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-d3/" target="_blank">D3 Basics Tutorial</a></li>
             </ul>
           </li>
-        </ul>
-        <h2 className='section-header'>Week 6 (Mar 4, 6)</h2>
-        <ul>
           <li>
             <b>Lecture: </b> Visual Encoding: Marks and Channels
           </li>

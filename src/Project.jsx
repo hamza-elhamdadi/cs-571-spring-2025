@@ -156,7 +156,7 @@ function Project(){
                             Delegate different modules and responsibilities among your team members. Write this schedule in terms of weekly deadlines for the remainder of the semester.</li>
                     </ul>
                     
-                    This proposal is the first part of your <b>process book</b>. As a ballpark: your proposal should contain about 3-4 pages of text, plus 5-6 pages of sketches. 
+                    This proposal is the first part of your <b>process book</b>. As a ballpark: your proposal should contain 1-3 pages of text, plus 5-6 pages of sketches. 
                     <b>You will submit the proposal on Gradescope.</b> Make sure to also commit the proposal to your group's GitHub repository.
                 </p>
                 <h2 className="section-header">Project Review</h2>
