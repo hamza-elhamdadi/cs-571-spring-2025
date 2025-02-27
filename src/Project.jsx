@@ -161,8 +161,11 @@ function Project(){
                 </p>
                 <h2 className="section-header">Project Review</h2>
                 <p>
-                    Based on your proposals, we will assign a staff member to your team (myself or one of the TAs) who will meet with you to help guide and scope the rest of your project.
-                    You will schedule this meeting with your assigned staff member during Week 5 or 6. Make sure that all of your team members are present at the meeting.
+                    <s>Based on your proposals, we will assign a staff member to your team (myself or one of the TAs) who will meet with you to help guide and scope the rest of your project.
+                    You will schedule this meeting with your assigned staff member during Week 5 or 6. Make sure that all of your team members are present at the meeting.</s>
+                </p>
+                <p>
+                    Given the limited availability of the course staff this semester, we will provide feedback for the project proposals in writing. If you have any questions about this feedback or otherwise, we would be happy to discuss this in office hours. 
                 </p>
                 <h2 className="section-header">Project Milestone</h2>
                 <p>

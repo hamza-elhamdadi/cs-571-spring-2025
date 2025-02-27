@@ -173,6 +173,16 @@ function Schedule() {
           </li>
           <li>
             <b>Lecture: </b> DOM and D3 Basics
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_5_slides_dom_d3.pdf', 'CS 571 - Week 5 Slides - DOM and D3.pdf')
+            }}> Download Slides</a>
+          </li>
+          <li>
+            <b>Supplemental Resources: </b>
+            <ul>
+              <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-dom-manipulation/" target="_blank">DOM Manipulation Tutorial</a></li>
+              <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-d3/" target="_blank">D3 Basics Tutorial</a></li>
+            </ul>
           </li>
         </ul>
         <h2 className='section-header'>Week 6 (Mar 4, 6)</h2>
