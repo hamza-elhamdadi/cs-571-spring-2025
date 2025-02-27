@@ -178,6 +178,12 @@ function Schedule() {
             }}> Download Slides</a>
           </li>
           <li>
+            <b>DOM and D3 Basics - Starter Code: </b> 
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('code/dom_and_d3_basics.zip', 'DOM and D3 Basics.zip')
+            }}> Download Starter Code</a>
+          </li>
+          <li>
             <b>Supplemental Resources: </b>
             <ul>
               <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-dom-manipulation/" target="_blank">DOM Manipulation Tutorial</a></li>
