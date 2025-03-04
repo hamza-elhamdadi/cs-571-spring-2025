@@ -190,6 +190,7 @@ function Schedule() {
           </li>
           <li>
             <b>DOM and D3 Basics - Starter Code: </b> 
+            <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('code/dom_and_d3_basics.zip', 'DOM and D3 Basics.zip')
             }}> Download Starter Code</a>
@@ -201,7 +202,7 @@ function Schedule() {
               <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-d3/" target="_blank">D3 Basics Tutorial</a></li>
             </ul>
           </li>
-          <br />
+          <br />  
           <li>
             <b>Lecture: </b> Visual Encoding: Marks and Channels
           </li>
