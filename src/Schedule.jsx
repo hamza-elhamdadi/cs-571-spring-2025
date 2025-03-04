@@ -39,6 +39,7 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> What Is Visualization, and Why Is It Important?
+            <br />
             {/* <br /> */}
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_1_slides.pdf', 'CS 571 - Week 1 Slides - What Is Visualization and Why Is It Important.pdf')
@@ -67,6 +68,7 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b>Perception and Cognition
+            <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_2_slides.pdf', 'CS 571 - Week 2 Slides - Perception and Cognition.pdf')
             }}> Download Slides</a>
@@ -81,6 +83,7 @@ function Schedule() {
           <br />
           <li>
             <b>Lecture: </b> HTML and CSS
+            <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_2_slides_html.pdf', 'CS 571 - Week 2 Slides - HTML and CSS.pdf')
             }}> Download Slides</a>
@@ -99,6 +102,7 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> Color
+            <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_3_slides_color.pdf', 'CS 571 - Week 3 Slides - Color.pdf')
             }}> Download Slides</a>
@@ -120,6 +124,7 @@ function Schedule() {
           <br />
           <li>
             <b>Lecture: </b> Project Overview and Project Management with Git
+            <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_3_slides_project.pdf', 'CS 571 - Week 3 Slides - Project Overview and Project Management with Git.pdf')
             }}> Download Slides</a>
@@ -144,6 +149,7 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> Data Abstraction
+            <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_4_slides_data_abstraction.pdf', 'CS 571 - Week 4 Slides - Data Abstraction.pdf')
             }}> Download Slides</a>
@@ -160,6 +166,7 @@ function Schedule() {
         <ul>
         <li>
             <b>Lecture: </b> SVG and Javascript
+            <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_5_slides_svg_javascript.pdf', 'CS 571 - Week 5 Slides - SVG and Javascript.pdf')
             }}> Download Slides</a>
@@ -176,6 +183,7 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> DOM and D3 Basics
+            <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_5_slides_dom_d3.pdf', 'CS 571 - Week 5 Slides - DOM and D3.pdf')
             }}> Download Slides</a>
@@ -193,6 +201,7 @@ function Schedule() {
               <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-d3/" target="_blank">D3 Basics Tutorial</a></li>
             </ul>
           </li>
+          <br />
           <li>
             <b>Lecture: </b> Visual Encoding: Marks and Channels
           </li>
