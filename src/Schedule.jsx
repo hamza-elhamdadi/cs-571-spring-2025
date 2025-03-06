@@ -185,7 +185,7 @@ function Schedule() {
             <b>Lecture: </b> DOM and D3 Basics
             <br />
             <a href="#/schedule" onClick={() => {
-              downloadPdf('slides/week_5_slides_dom_d3.pdf', 'CS 571 - Week 5 Slides - DOM and D3.pdf')
+              downloadPdf('slides/week_5_slides_dom_d3.pdf', 'CS 571 - Week 6 Slides - DOM and D3.pdf')
             }}> Download Slides</a>
           </li>
           <li>
@@ -200,11 +200,28 @@ function Schedule() {
             <ul>
               <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-dom-manipulation/" target="_blank">DOM Manipulation Tutorial</a></li>
               <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-d3/" target="_blank">D3 Basics Tutorial</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/document" target="_blank">MDN Document Object documentation</a></li>
+              <li><a href="https://github.com/mbostock/d3/wiki/API-Reference" target='_blank'>D3 API Github Page</a></li>
             </ul>
           </li>
           <br />  
           <li>
             <b>Lecture: </b> Visual Encoding: Marks and Channels
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_6_slides_visual_encodings.pdf', 'CS 571 - Week 6 Slides - Visual Encodings.pdf')
+            }}> Download Slides</a>
+          </li>
+          <li>
+            <b>Recommended Reading:</b>
+            <ul>
+              <li><a target="_blank" href="https://hci.stanford.edu/publications/2010/crowd-perception/heer-chi2010.pdf">Crowdsourcing graphical perception: using mechanical turk to assess visualization design.</a> Jeff Heer, Mike Bostock. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 2010.</li>
+              <li><a target="_blank" href="https://www.datawrapper.de/blog/which-color-scale-to-use-in-data-vis">Which color scale to use when visualizing data.</a> Lisa Charlotte Muth, 2021. (all 4 parts)</li>
+              <li><a target="_blank" href="https://learning.oreilly.com/library/view/~/9781466508910/?ar">VAD</a>, Chapter 5, Marks and Channels</li>
+              <li><a target="_blank" href="https://learning.oreilly.com/library/view/~/9781466508910/?ar">VAD</a>, Chapter 10.4, Other Channels</li>
+              <li><a target="_blank" href="https://www.jstor.org/pss/2288400">Graphical Perception: Theory, Experimentation and the Application to the Development of Graphical Models.</a> William S. Cleveland, Robert McGill, J. Am. Stat. Assoc. 79:387, pp. 531-554, 1984.</li>
+              <li><a target="_blank" href="https://www.cs.unm.edu/~pgk/IVCDs14/00636792.pdf">The Structure of the Information Visualization Design Space.</a> Stuart Card and Jock MacKinlay. Proceedings of InfoVis, 1997.</li>
+              <li><a target="_blank" href="https://blog.datawrapper.de/beautifulcolors/">How to pick more beautiful colors for your data visualizations.</a> Lisa Charlotte Muth, 2020.</li>
+            </ul>
           </li>
         </ul>
         <h2 className='section-header'>Week 7 (Mar 11, 13)</h2>
