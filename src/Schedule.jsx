@@ -207,6 +207,7 @@ function Schedule() {
           <br />  
           <li>
             <b>Lecture: </b> Visual Encoding: Marks and Channels
+            <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_6_slides_visual_encodings.pdf', 'CS 571 - Week 6 Slides - Visual Encodings.pdf')
             }}> Download Slides</a>
