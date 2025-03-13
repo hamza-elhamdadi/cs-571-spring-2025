@@ -155,6 +155,13 @@ function Schedule() {
             }}> Download Slides</a>
           </li>
           <li>
+            <b>Group Activity 2: Coffee Shop Menu Abstraction</b>
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/ga2.pdf', 'CS 571 - Group Activity 2 - Coffee Shop Menu Abstraction.pdf')
+            }}> Download Activity</a>
+          </li>
+          <li>
             <b>Recommended Reading: </b>
             <ul>
               <li><a target='_blank' href="https://learning.oreilly.com/library/view/~/9781466508910/?ar">VAD</a>, Chapter 2, Data Abstraction</li>
@@ -223,6 +230,13 @@ function Schedule() {
               <li><a target="_blank" href="https://www.cs.unm.edu/~pgk/IVCDs14/00636792.pdf">The Structure of the Information Visualization Design Space.</a> Stuart Card and Jock MacKinlay. Proceedings of InfoVis, 1997.</li>
               <li><a target="_blank" href="https://blog.datawrapper.de/beautifulcolors/">How to pick more beautiful colors for your data visualizations.</a> Lisa Charlotte Muth, 2020.</li>
             </ul>
+          </li>
+          <li>
+            <b>Group Activity 3: Name the Channel</b>
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/ga3.pdf', 'CS 571 - Group Activity 3 - Name the Channel.pdf')
+            }}> Download Activity</a>
           </li>
         </ul>
         <h2 className='section-header'>Week 7 (Mar 11, 13)</h2>
