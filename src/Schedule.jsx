@@ -255,35 +255,33 @@ function Schedule() {
           <li>
             <b>Lecture: </b> Advanced D3
           </li>
-          <li>
-            <b>Lecture: </b> Tasks and Interaction
-          </li>
+          
         </ul>
         <h2 className='section-header'>Week 9 (Apr 1, 3)</h2>
         <ul>
           <li>
-            <b>Lecture: </b> D3 Layouts and Maps
+            <b>Lecture: </b> Tasks and Interaction
           </li>
           <li>
-            <b>Lecture: </b> Visualization Critique
+            <b>Lecture: </b> D3 Layouts and Maps
           </li>
         </ul>
         <h2 className='section-header'>Week 10 (Apr 8, 10)</h2>
         <ul>
-          <li>
-            <b>Lecture: </b> Tasks, Design and Evaluation
+         <li>
+            <b>Lecture: </b> Visualization Critique
           </li>
           <li>
-            <b>Lecture: </b> Multiple Views, Dashboards
+            <b>Lecture: </b> Tasks, Design and Evaluation
           </li>
         </ul>
         <h2 className='section-header'>Week 11 (Apr 15, 17)</h2>
         <ul>
           <li>
-            <b>Lecture: </b> Filtering and Aggregation
+            <b>Lecture: </b> Multiple Views, Dashboards
           </li>
           <li>
-            <b>Lecture: </b> Visualizing Tabular Data
+            <b>Lecture: </b> Filtering and Aggregation
           </li>
         </ul>
         <h2 className='section-header'>Week 12 (Apr 22, 24)</h2>
