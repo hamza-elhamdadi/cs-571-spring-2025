@@ -243,6 +243,10 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> Design Guidelines
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_8_slides_design_guidelines.pdf', 'CS 571 - Week 8 Slides - Design Guidelines.pdf')
+            }}> Download Activity</a>
           </li>
         </ul>
         <h2 className='section-header'>Week 8 (Mar 25, 27)</h2>
