@@ -212,7 +212,11 @@ function Schedule() {
             </ul>
           </li>
           <br />  
-          <li>
+          
+        </ul>
+        <h2 className='section-header'>Week 7 (Mar 11, 13)</h2>
+        <ul>
+        <li>
             <b>Lecture: </b> Visual Encoding: Marks and Channels
             <br />
             <a href="#/schedule" onClick={() => {
@@ -239,18 +243,15 @@ function Schedule() {
             }}> Download Activity</a>
           </li>
         </ul>
-        <h2 className='section-header'>Week 7 (Mar 11, 13)</h2>
+        <h2 className='section-header'>Week 8 (Mar 25, 27)</h2>
         <ul>
           <li>
             <b>Lecture: </b> Design Guidelines
             <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/week_8_slides_design_guidelines.pdf', 'CS 571 - Week 8 Slides - Design Guidelines.pdf')
-            }}> Download Activity</a>
+            }}> Download Slides</a>
           </li>
-        </ul>
-        <h2 className='section-header'>Week 8 (Mar 25, 27)</h2>
-        <ul>
           <li>
             <b>Lecture: </b> Advanced D3
           </li>
