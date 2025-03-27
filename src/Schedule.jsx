@@ -255,7 +255,13 @@ function Schedule() {
           <li>
             <b>Lecture: </b> Advanced D3
           </li>
-          
+          <li>
+            <b>Advanced D3 - Starter Code: </b> 
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('code/advanced_d3.zip', 'Advanced D3.zip')
+            }}> Download Starter Code</a>
+          </li>
         </ul>
         <h2 className='section-header'>Week 9 (Apr 1, 3)</h2>
         <ul>
