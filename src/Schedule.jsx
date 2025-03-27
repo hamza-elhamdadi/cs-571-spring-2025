@@ -254,6 +254,10 @@ function Schedule() {
           </li>
           <li>
             <b>Lecture: </b> Advanced D3
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_8_slides_advanced_d3.pdf', 'CS 571 - Week 8 Slides - Advanced D3.pdf')
+            }}> Download Slides</a>
           </li>
           <li>
             <b>Advanced D3 - Starter Code: </b> 
