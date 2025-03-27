@@ -252,6 +252,7 @@ function Schedule() {
               downloadPdf('slides/week_8_slides_design_guidelines.pdf', 'CS 571 - Week 8 Slides - Design Guidelines.pdf')
             }}> Download Slides</a>
           </li>
+          <br />
           <li>
             <b>Lecture: </b> Advanced D3
             <br />
