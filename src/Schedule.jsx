@@ -267,41 +267,52 @@ function Schedule() {
               downloadPdf('code/advanced_d3.zip', 'Advanced D3.zip')
             }}> Download Starter Code</a>
           </li>
+          <li>
+            <b>D3 Interactive Tutorial:</b>
+            <a href="https://www.dataviscourse.net/tutorials/lectures/lecture-advanced-d3/" target="_blank"> Advanced D3 (Selections, Data, Scales, and Axes)</a>
+          </li>
         </ul>
         <h2 className='section-header'>Week 9 (Apr 1, 3)</h2>
+        <ul>
+          <li>
+            <b>Group Activity 3: Determine the Task</b>
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/ga3.pdf', 'CS 571 - Group Activity 3 - Determine the Task.pdf')
+            }}> Download Activity</a>
+          </li>
+          <li>
+            <b>D3 Interactive Tutorial: </b> <a href="http://dataviscourse.net/tutorials/lectures/lecture-d3-layouts/" target="_blank">D3 Layouts (Pie Charts, Tree Maps, Node-Link Diagrams, Matrices, Etc)</a>
+          </li>
+          <li>
+            <b>D3 Interactive Tutorial:</b> <a href="http://dataviscourse.net/tutorials/lectures/lecture-maps/" target="_blank">D3 Maps (GeoJSON, TopoJSON, Choropleth Maps, Proportional Symbol Maps, Google Maps)</a>
+          </li>
+        </ul>
+        <h2 className='section-header'>Week 10 (Apr 8, 10)</h2>
         <ul>
           <li>
             <b>Lecture: </b> Tasks and Interaction
           </li>
           <li>
-            <b>Lecture: </b> D3 Layouts and Maps
-          </li>
-        </ul>
-        <h2 className='section-header'>Week 10 (Apr 8, 10)</h2>
-        <ul>
-         <li>
             <b>Lecture: </b> Visualization Critique
-          </li>
-          <li>
-            <b>Lecture: </b> Tasks, Design and Evaluation
           </li>
         </ul>
         <h2 className='section-header'>Week 11 (Apr 15, 17)</h2>
         <ul>
           <li>
-            <b>Lecture: </b> Multiple Views, Dashboards
+            <b>Lecture: </b> Tasks, Design and Evaluation
           </li>
           <li>
-            <b>Lecture: </b> Filtering and Aggregation
+            <b>Lecture: </b> Multiple Views, Dashboards
           </li>
         </ul>
         <h2 className='section-header'>Week 12 (Apr 22, 24)</h2>
         <ul>
           <li>
-            <b>Lecture: </b> Visualizing Tabular Data
+            <b>Lecture: </b> Filtering and Aggregation
           </li>
           <li>
-            <b>Lecture: </b> Visualizing Networks and Trees
+            <b>Lecture: </b> Visualizing Tabular Data
           </li>
         </ul>
         <h2 className='section-header'>Week 13 (Apr 29, May 1)</h2>
