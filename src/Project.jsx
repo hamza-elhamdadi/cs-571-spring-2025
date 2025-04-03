@@ -176,7 +176,7 @@ function Project(){
                 <p>
                     You should have completed your data acquisition, or at least have a significant sample of your data. You must have your data structures in place.
                     For example, if you plan to collect 1000 data records, but only have 200, that is fine. If you are missing one of two datasets from your proposal, you will lose points, 
-                    since you will be missing have of the structure of your project.
+                    since you will be missing half of the structure of your project.
                     <br />
                 </p>
                 <p>

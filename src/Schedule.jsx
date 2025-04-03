@@ -203,6 +203,9 @@ function Schedule() {
             }}> Download Starter Code</a>
           </li>
           <li>
+            <b>D3 Interactive Tutorial: </b> <a href="https://www.dataviscourse.net/tutorials/lectures/lecture-d3/" target="_blank"> D3 Intro</a>
+          </li>
+          <li>
             <b>Supplemental Resources: </b>
             <ul>
               <li><a href="http://dataviscourse.net/tutorials/lectures/lecture-dom-manipulation/" target="_blank">DOM Manipulation Tutorial</a></li>
@@ -278,7 +281,7 @@ function Schedule() {
             <b>Group Activity 3: Determine the Task</b>
             <br />
             <a href="#/schedule" onClick={() => {
-              downloadPdf('slides/ga3.pdf', 'CS 571 - Group Activity 3 - Determine the Task.pdf')
+              downloadPdf('slides/ga4.pdf', 'CS 571 - Group Activity 4 - Determine the Task.pdf')
             }}> Download Activity</a>
           </li>
           <li>
