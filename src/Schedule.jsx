@@ -300,6 +300,7 @@ function Schedule() {
               downloadPdf('slides/week_10_slides_tasks_and_interaction.pdf', 'CS 571 - Week 10 Slides - Tasks and Interaction.pdf')
             }}> Download Slides</a>
           </li>
+          <br />
           <li>
             <b>Lecture: </b> Visualization Critique
           </li>
