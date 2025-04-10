@@ -278,7 +278,7 @@ function Schedule() {
         <h2 className='section-header'>Week 9 (Apr 1, 3)</h2>
         <ul>
           <li>
-            <b>Group Activity 3: Determine the Task</b>
+            <b>Group Activity 4: Determine the Task</b>
             <br />
             <a href="#/schedule" onClick={() => {
               downloadPdf('slides/ga4.pdf', 'CS 571 - Group Activity 4 - Determine the Task.pdf')
@@ -303,6 +303,17 @@ function Schedule() {
           <br />
           <li>
             <b>Lecture: </b> Visualization Critique
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_10_slides_visualization_critique.pdf', 'CS 571 - Week 10 Slides - Visualization Critique.pdf')
+            }}> Download Slides</a>
+          </li>
+          <li>
+            <b>Group Activity 5: Visualization Critique</b>
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/ga5.pdf', 'CS 571 - Group Activity 5 - Visualization Critique.pdf')
+            }}> Download Activity</a>
           </li>
         </ul>
         <h2 className='section-header'>Week 11 (Apr 15, 17)</h2>
