@@ -320,7 +320,12 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> Tasks, Design and Evaluation
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_11_slides_tasks_design_evaluation.pdf', 'CS 571 - Week 11 Slides - Tasks, Design, and Evaluation.pdf')
+            }}> Download Slides</a>
           </li>
+          <br />
           <li>
             <b>Lecture: </b> Multiple Views, Dashboards
           </li>
