@@ -188,9 +188,9 @@ function Project(){
                     The milestone will be submitted by <a target="_blank" href="https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository"> creating a release </a> on Github.
                     <b>You will submit a link to this release in Gradescope.</b>
                 </p>
-                <h2 className="section-header">Peer Feedback</h2>
+                <h2 className="section-header"><s>Peer Feedback</s></h2>
                 <p>
-                    Each student will be assigned three other groups to provide structured feedback to.
+                    <s>Each student will be assigned three other groups to provide structured feedback to.</s>
                 </p>
                 <h2 className="section-header">Final Project Submission</h2>
                 <p>
