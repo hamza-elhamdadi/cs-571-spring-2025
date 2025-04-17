@@ -328,6 +328,10 @@ function Schedule() {
           <br />
           <li>
             <b>Lecture: </b> Multiple Views, Dashboards
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_11_slides_multiple_views.pdf', 'CS 571 - Week 11 Slides - Multiple Views (Dashboards).pdf')
+            }}> Download Slides</a>
           </li>
         </ul>
         <h2 className='section-header'>Week 12 (Apr 22, 24)</h2>
