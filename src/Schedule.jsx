@@ -346,6 +346,10 @@ function Schedule() {
         <h2 className='section-header'>Week 13 (Apr 29, May 1)</h2>
         <ul>
           <li>
+            <n>Group Activity 5: Design Sprint</n>
+          </li>
+          <br />
+          <li>
             <b>Lecture: </b> Visualizing Networks and Trees
           </li>
           <li>
@@ -354,11 +358,11 @@ function Schedule() {
         </ul>
         <h2 className='section-header'>Week 14 (May 6, 8)</h2>
         <ul>
-          <li>
-            <b>Lecture: </b> Set and Text Visualizations
+        <li>
+            <b>Lecture: </b> Maps
           </li>
           <li>
-            <b>Lecture: </b> Maps
+            <b>Lecture: </b> Set and Text Visualizations
           </li>
         </ul>
       </div>
