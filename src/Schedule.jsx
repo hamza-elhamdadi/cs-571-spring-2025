@@ -338,6 +338,10 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> Filtering and Aggregation
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_12_slides_filtering_aggregation.pdf', 'CS 571 - Week 12 Slides - Filtering and Aggregation.pdf')
+            }}> Download Slides</a>
           </li>
           <li>
             <b>Lecture: </b> Visualizing Tabular Data
