@@ -355,7 +355,7 @@ function Schedule() {
         <h2 className='section-header'>Week 13 (Apr 29, May 1)</h2>
         <ul>
           <li>
-            <n>Group Activity 5: Design Sprint</n>
+            <n>Group Activity 6: Design Sprint</n>
           </li>
           <br />
           <li>
