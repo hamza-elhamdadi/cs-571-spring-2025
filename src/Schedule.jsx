@@ -343,8 +343,13 @@ function Schedule() {
               downloadPdf('slides/week_12_slides_filtering_aggregation.pdf', 'CS 571 - Week 12 Slides - Filtering and Aggregation.pdf')
             }}> Download Slides</a>
           </li>
+          <br />
           <li>
             <b>Lecture: </b> Visualizing Tabular Data
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_12_slides_visualizing_tabular_data.pdf', 'CS 571 - Week 12 Slides - Visualizing Tabular Data.pdf')
+            }}> Download Slides</a>
           </li>
         </ul>
         <h2 className='section-header'>Week 13 (Apr 29, May 1)</h2>
