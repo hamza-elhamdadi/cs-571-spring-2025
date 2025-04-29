@@ -355,7 +355,11 @@ function Schedule() {
         <h2 className='section-header'>Week 13 (Apr 29, May 1)</h2>
         <ul>
           <li>
-            <n>Group Activity 6: Design Sprint</n>
+            <b>Group Activity 6: Design Sprint</b>
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/ga6.pdf', 'CS 571 - Group Activity 6 - Design Sprint.pdf')
+            }}> Download Activity</a>
           </li>
           <br />
           <li>
