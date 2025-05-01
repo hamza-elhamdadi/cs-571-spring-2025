@@ -363,19 +363,20 @@ function Schedule() {
           </li>
           <br />
           <li>
-            <b>Lecture: </b> Visualizing Networks and Trees
-          </li>
-          <li>
-            <b>Lecture: </b> Visualizing Multivariate Networks
+            <b>Lecture: </b> Visualizing (Multivariate) Networks and Trees
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_13_slides_visualizing_networks_and_trees.pdf', 'CS 571 - Week 13 Slides - Visualizing Networks and Trees.pdf')
+            }}> Download Slides</a>
           </li>
         </ul>
         <h2 className='section-header'>Week 14 (May 6, 8)</h2>
         <ul>
-        <li>
-            <b>Lecture: </b> Maps
-          </li>
           <li>
             <b>Lecture: </b> Set and Text Visualizations
+          </li>
+          <li>
+            <b>Lecture: </b> Maps
           </li>
         </ul>
       </div>
