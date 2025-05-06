@@ -374,6 +374,10 @@ function Schedule() {
         <ul>
           <li>
             <b>Lecture: </b> Set and Text Visualizations
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_14_set_and_text.pdf', 'CS 571 - Week 14 Slides - Set and Text Visualizations.pdf')
+            }}> Download Slides</a>
           </li>
           <li>
             <b>Lecture: </b> Maps
