@@ -379,8 +379,20 @@ function Schedule() {
               downloadPdf('slides/week_14_slides_set_and_text.pdf', 'CS 571 - Week 14 Slides - Set and Text Visualizations.pdf')
             }}> Download Slides</a>
           </li>
+          <br />
           <li>
             <b>Lecture: </b> Maps
+            <br />
+            <a href="#/schedule" onClick={() => {
+              downloadPdf('slides/week_14_slides_maps.pdf', 'CS 571 - Week 14 Slides - Maps.pdf')
+            }}> Download Slides</a>
+          </li>
+          <li>
+            <b>Recommended Reading:</b>
+            <ul>
+              <li><a target="_blank" href="http://graphics.stanford.edu/papers/routemaps/routemaps.pdf">Rendering effective route maps: improving usability through generalization.</a> M. Agrawala, C. Stolte. Proceedings of the 28th annual conference on Computer Graphics and Interactive Techniques. ACM, 2001.</li>
+              <li><a target="_blank" href="https://idl.cs.washington.edu/papers/surprise-maps/">Surprise! Bayesian Weighting for De-Biasing Thematic Maps.</a> M. Correll, J. Heer. Transactions on Visualization and Computer Graphics. IEEE, 2017.</li>
+            </ul>
           </li>
         </ul>
       </div>
